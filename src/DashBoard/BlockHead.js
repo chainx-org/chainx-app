@@ -1,11 +1,7 @@
 import React from 'react';
 
-const DashBoard = () => {
-  return (
-    <div>
-      哈哈哈哈哈
-    </div>
-  );
+const BlockHead = () => {
+  return <div>BlockHead</div>;
 };
 
-export default DashBoard;
+export default BlockHead;

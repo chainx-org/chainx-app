@@ -1,9 +1,11 @@
 import React from 'react';
 
+import BlockHead from './BlockHead';
+
 const DashBoard = () => {
   return (
     <div>
-      哈哈哈哈哈
+      <BlockHead />
     </div>
   );
 };
