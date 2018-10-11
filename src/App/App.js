@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">chainx</header>
-      </div>
-    );
-  }
-}
+import Header from './Header';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+const App = () => {
+  return (
+    <Router>
+      <React.Fragment>
+        <Header />
+      </React.Fragment>
+    </Router>
+  );
+};
 
 export default App;
